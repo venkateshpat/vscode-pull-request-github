@@ -10,13 +10,13 @@
  * passing them through a sequence of checks. Here are the current subsets,
  * named according to the checks performed on them.
  */
-
+-------------------------------------------------   -------------------------------------------------
 module.exports.all = [
 	'*',
-	'build/**/*',
-	'common/**/*',
-	'scripts/**/*',
-	'src/**/*',
+	'build/devenv/vprockzz',
+	'common/devenv/vp',
+	'scripts/test/test',
+	'src/aws',
 	'test/**/*',
 	'webviews/**/*'
 ];
